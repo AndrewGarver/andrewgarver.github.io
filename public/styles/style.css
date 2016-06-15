@@ -1,0 +1,111 @@
+* {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: 'Fjalla one', sans-serif;
+}
+
+#title-bg {
+  width: 100%;
+  background-color: #a0c6c0; /*fallback for no JS*/
+}
+
+#title-mask {
+  position: relative;
+  top: 0;
+  left: 0;
+  display: block;
+  height:100%;
+  width:100%;
+}
+
+section {
+  font-size: 1.2em;
+  padding-left: 10%;
+  padding-right: 15%;
+  padding-bottom: 10%
+}
+
+p {
+  font-size: 1.1em;
+}
+
+a {
+  text-decoration: none;
+}
+
+span a {
+  color: #000;
+  display: inline-block;
+  border-bottom: 4px solid;
+  line-height: 1;
+}
+
+#email{
+  border-color: #a0c6c0;
+}
+
+#github, #profiles-app{
+  border-color: #f5d266;
+}
+
+#linkedin, #pizza-rat{
+  border-color: #B3859A;
+}
+
+#resume {
+  border-color: #EE9885;
+}
+
+#email:hover {
+ color: #a0c6c0;
+}
+#github:hover, #profiles-app:hover{
+  color: #f5d266;
+}
+#linkedin:hover, #pizza-rat:hover{
+  color: #B3859A;
+}
+#resume:hover {
+  color: #EE9885;
+}
+/*Individual Style Rules Below*/
+
+.display-none {
+  display: none;
+}
+
+  /*colors*/
+
+.blue-green{
+  color: #a0c6c0
+}
+.lavender {
+  color: #B3859A
+}
+.pale-orange {
+  color: #EE9885
+}
+.golden {
+  color: #f5d266;
+}
+
+/*Responsive Rules*/
+@media (min-width: 768px) {
+
+  header {
+    height: 100vh;
+  }
+
+  section {
+    font-size: 1.5em;
+    padding-left: 10%;
+    padding-right: 20%;
+    padding-bottom: 10%
+  }
+
+  p {
+    font-size: 1.3em;
+  }
+
+}
