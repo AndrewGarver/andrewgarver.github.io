@@ -11,23 +11,26 @@
 }
 
 #title-mask {
-  /*position: relative;
-  top: 0;
-  left: 0;*/
   display: block;
   height:100%;
   width:100%;
 }
 
 section {
+  max-width: 800px;
   font-size: 1.2em;
-  padding-left: 10%;
-  padding-right: 15%;
-  padding-bottom: 10%
+  margin-left: 10%;
+  margin-right: 15%;
+  padding-bottom: 4em;
+}
+
+h2 {
+  margin-bottom: 1em;
 }
 
 p {
   font-size: 1.1em;
+  margin-bottom: 1em;
 }
 
 a {
@@ -91,7 +94,7 @@ span a {
 }
 
 /*Responsive Rules*/
-@media (min-width: 768px) {
+@media (min-width: 760px) {
 
   header {
     position: relative;
@@ -107,9 +110,6 @@ span a {
 
   section {
     font-size: 1.5em;
-    padding-left: 10%;
-    padding-right: 20%;
-    padding-bottom: 10%
   }
 
   p {

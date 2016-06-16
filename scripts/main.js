@@ -4,19 +4,18 @@ var $div = document.getElementById("title-bg");
 
 // list of gradients
 var gradients = [
-  { start: [160,198,192], stop: [30,41,58] },
-  { start: [255,233,211], stop: [234,92,68] },
-  { start: [224,160,160], stop: [130,105,151] }
+  { start: [192, 217, 213], stop: [30, 55, 58] },
+  { start: [255,233,211], stop: [226, 54, 25] },
+  { start: [237, 198, 198], stop: [104, 84, 121] }
 ];
 
 // transition timing
-var transition_time = 4;
+var transition_time = 3;
 var fps = 60;
 
 
-// interal type vars
-var timer; // for the setInterval
-var interval_time = Math.round(1000/fps); // how often to interval
+var timer;
+var interval_time = Math.round(1000/fps);
 var currentIndex = 0; // where we are in the gradients array
 var nextIndex = 1; // what index of the gradients array is next
 var steps_count = 0; // steps counter
