@@ -60,6 +60,10 @@ span a {
   border-color: #EE9885;
 }
 
+#lone-star, #codepen {
+  border-color: #e9636e;
+}
+
 #email:hover {
  color: #a0c6c0;
 }
@@ -71,6 +75,10 @@ span a {
 }
 #resume:hover {
   color: #EE9885;
+}
+
+#lone-star:hover, #codepen:hover {
+  border-color: #e9636e;
 }
 /*Individual Style Rules Below*/
 
@@ -91,6 +99,9 @@ span a {
 }
 .golden {
   color: #f5d266;
+}
+.lone-star-pink {
+  color: #e9636e;
 }
 
 /*Responsive Rules*/
